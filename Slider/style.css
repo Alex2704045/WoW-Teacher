@@ -1,0 +1,29 @@
+#gallery{
+    width: 670px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.images{
+    position: relative;
+    height: 510px;
+}
+
+.images img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+input{
+    padding: 10px 50px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+}
+
+.showed{
+    opacity: 1!important;
+}

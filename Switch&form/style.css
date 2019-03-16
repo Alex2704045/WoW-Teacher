@@ -193,7 +193,7 @@ i{
 #modal_form form,#modal_form form>*{
     width: 100%!important;
 }
-#modal_form form>input[type=checkbox],#modal_form form>input[type=radiobutton]{
+#modal_form form>input[type=checkbox],#modal_form form>input[type=radio]{
     width:auto!important; 
     display: flex;
     align-items: center
